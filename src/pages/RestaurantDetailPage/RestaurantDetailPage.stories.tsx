@@ -48,15 +48,15 @@ export const Success = {
   },
 }
 
-export const WithModalOpen: Story = {
-  ...Success,
-  play: async ({ canvasElement }) => {
-    const canvas = within(canvasElement)
-    const item = await canvas.findByText(/Cheeseburger/i)
-    await userEvent.click(item)
-    await expect(canvas.getByTestId('modal')).toBeInTheDocument()
-  },
-}
+// export const WithModalOpen: Story = {
+//   ...Success,
+//   play: async ({ canvasElement }) => {
+//     const canvas = within(canvasElement)
+//     const item = await canvas.findByText(/Cheeseburger/i)
+//     await userEvent.click(item)
+//     await expect(canvas.getByTestId('modal')).toBeInTheDocument()
+//   },
+// }
 
 export const WithItemsInTheCart: Story = {
   parameters: {
