@@ -66,6 +66,6 @@ export const Banner = () => (
         <Button>View all restaurants</Button>
       </Link>
     </ContentContainer>
-    <Image src={ladies} />
+    <Image className="chromatic-ignore" src={ladies} />
   </Container>
 )
