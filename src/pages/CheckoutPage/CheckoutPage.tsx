@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components'
+import { FloatingOffer } from 'components/ShoppingCart/FloatingOffer/FloatingOffer'
 
 import { useAppSelector } from '../../app-state'
 import { OrderSummary } from '../../components/ShoppingCart'
@@ -60,8 +61,16 @@ const ContentContainer = styled.div(
 export const CheckoutPage = () => {
   const cartItems = useAppSelector(selectCartItems)
 
+  let offeredItem = {
+    quantity: 1,
+    id: 308,
+    name: 'Bison Burger',
+    price: 11.99,
+    description: 'A succulent burger made from 100% bison meat.',
+  }
   return (
     <PageTemplate type="basic">
+      <FloatingOffer item={offeredItem} />
       <ContentContainer>
         <TopContainer>
           <StyledHeading level={2} className="container">
