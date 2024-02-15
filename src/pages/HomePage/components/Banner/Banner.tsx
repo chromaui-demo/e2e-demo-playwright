@@ -51,7 +51,7 @@ const StyledHeading = styled(Heading)(
   padding: 0 2rem;
   strong {
     color: ${color.primaryText};
-    font-weight: 900;
+    font-weight: 900; /**/
   }
 `
 )
