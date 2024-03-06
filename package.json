@@ -52,7 +52,6 @@
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
-    "@chromatic-com/playwright": "0.6.2-72e0f0b-20240306011333",
     "@ladle/react": "^2.4.5",
     "@playwright/test": "^1.40.1",
     "@storybook/addon-a11y": "7.5.3",
