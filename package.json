@@ -28,7 +28,7 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build -o build/storybook",
     "build-all": "yarn build && yarn build-storybook",
-    "chromatic": "chromatic --project-token $CHROMATIC_PROJECT_TOKEN --exit-zero-on-changes --only-changed",
+    "chromatic": "npx chromatic --playwright -t=chpt_aee3ddfbd99f601",
     "prepare": "husky install",
     "lint": "eslint --fix .",
     "prettier": "prettier --write .",

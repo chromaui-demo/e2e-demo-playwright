@@ -53,6 +53,7 @@ const StyledHeading = styled(Heading)(
     color: ${color.primaryText};
     font-weight: 900;
   }
+  max-width: 30vw;
 `
 )
 
