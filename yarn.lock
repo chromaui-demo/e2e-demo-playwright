@@ -1865,9 +1865,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@chromatic-com/playwright@npm:^0.6.3":
-  version: 0.6.3
-  resolution: "@chromatic-com/playwright@npm:0.6.3"
+"@chromatic-com/playwright@npm:0.6.4-da738e7-20240312001347":
+  version: 0.6.4-da738e7-20240312001347
+  resolution: "@chromatic-com/playwright@npm:0.6.4-da738e7-20240312001347"
   dependencies:
     "@segment/analytics-node": ^1.1.0
     "@storybook/addon-essentials": ^8.0.0-alpha.16
@@ -1882,7 +1882,7 @@ __metadata:
   bin:
     archive-storybook: dist/bin/archive-storybook.js
     build-archive-storybook: dist/bin/build-archive-storybook.js
-  checksum: dbb386f951b325570f60a47a058fed8e3369241b46cd892f600794466e932b461921139adbf1f35ac1cb588cc8e705b167d6f24239c7edea634deac3f43cfc2c
+  checksum: 377689371b6e14cfb4226cdd92524dea57a4e7a141228a28e2b3f6102c6965852761111e20ad9596a70ccf2c4cd5f579a5eb04928457b8ef15b0c519e212f315
   languageName: node
   linkType: hard
 
@@ -9112,7 +9112,7 @@ __metadata:
   resolution: "course-app@workspace:."
   dependencies:
     "@babel/core": ^7.14.6
-    "@chromatic-com/playwright": ^0.6.3
+    "@chromatic-com/playwright": 0.6.4-da738e7-20240312001347
     "@ladle/react": ^2.4.5
     "@playwright/test": ^1.40.1
     "@reduxjs/toolkit": ^1.7.1
