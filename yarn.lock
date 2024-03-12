@@ -1865,9 +1865,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@chromatic-com/playwright@npm:^0.5.4":
-  version: 0.5.4
-  resolution: "@chromatic-com/playwright@npm:0.5.4"
+"@chromatic-com/playwright@npm:^0.6.3":
+  version: 0.6.3
+  resolution: "@chromatic-com/playwright@npm:0.6.3"
   dependencies:
     "@segment/analytics-node": ^1.1.0
     "@storybook/addon-essentials": ^8.0.0-alpha.16
@@ -1882,7 +1882,7 @@ __metadata:
   bin:
     archive-storybook: dist/bin/archive-storybook.js
     build-archive-storybook: dist/bin/build-archive-storybook.js
-  checksum: 7b75705244b98bc3405708046ec2df6e213943a393c2a6278613745e6c8dba4ff707e2d3bc0b8c1856a0af7052bbe3d96c8d5f0d3bd726c63ef7edecb3a5cd56
+  checksum: dbb386f951b325570f60a47a058fed8e3369241b46cd892f600794466e932b461921139adbf1f35ac1cb588cc8e705b167d6f24239c7edea634deac3f43cfc2c
   languageName: node
   linkType: hard
 
@@ -8623,12 +8623,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chromatic@npm:^10.9.2":
-  version: 10.9.2
-  resolution: "chromatic@npm:10.9.2"
+"chromatic@npm:^11.0.8":
+  version: 11.0.8
+  resolution: "chromatic@npm:11.0.8"
   peerDependencies:
-    "@chromatic-com/cypress": ^0.5.2 || ^1.0.0
-    "@chromatic-com/playwright": ^0.5.2 || ^1.0.0
+    "@chromatic-com/cypress": ^0.*.* || ^1.0.0
+    "@chromatic-com/playwright": ^0.*.* || ^1.0.0
   peerDependenciesMeta:
     "@chromatic-com/cypress":
       optional: true
@@ -8638,7 +8638,7 @@ __metadata:
     chroma: dist/bin.js
     chromatic: dist/bin.js
     chromatic-cli: dist/bin.js
-  checksum: 6fda485ebf6c25dc1308efd8200f8c96becb837967c8e6f32fd792a4c828655a839b3e53973a4eefced7fc8455f06aa182e35387ffa67d153ee342fc64170bc3
+  checksum: cef2a686a192b522ae8dda4ec5f93fbad567b9bbc7be7795f6db5231656279a2221cef426aa1a00b52ff3d5367b2e422a547d380c381cba15492846db4d5ad48
   languageName: node
   linkType: hard
 
@@ -9112,7 +9112,7 @@ __metadata:
   resolution: "course-app@workspace:."
   dependencies:
     "@babel/core": ^7.14.6
-    "@chromatic-com/playwright": ^0.5.4
+    "@chromatic-com/playwright": ^0.6.3
     "@ladle/react": ^2.4.5
     "@playwright/test": ^1.40.1
     "@reduxjs/toolkit": ^1.7.1
@@ -9148,7 +9148,7 @@ __metadata:
     babel-plugin-istanbul: ^6.1.1
     babel-plugin-open-source: ^1.3.3
     c8: ^7.12.0
-    chromatic: ^10.9.2
+    chromatic: ^11.0.8
     eslint: ^8.27.0
     eslint-config-airbnb-typescript: ^16.0.0
     eslint-config-prettier: ^8.3.0
