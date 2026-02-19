@@ -1567,9 +1567,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@chromatic-com/playwright@npm:^0.11.1":
-  version: 0.11.1
-  resolution: "@chromatic-com/playwright@npm:0.11.1"
+"@chromatic-com/playwright@npm:0.10.2":
+  version: 0.10.2
+  resolution: "@chromatic-com/playwright@npm:0.10.2"
   dependencies:
     "@chromaui/rrweb-snapshot": 2.0.0-alpha.17-noAbsolute
     "@segment/analytics-node": ^1.1.0
@@ -1584,7 +1584,7 @@ __metadata:
   bin:
     archive-storybook: dist/bin/archive-storybook.js
     build-archive-storybook: dist/bin/build-archive-storybook.js
-  checksum: baab6619c6061c6f98510e76cd13bd7b95604f6f76936103ec5200290bcdc54a433b8407285451cb71e31b3c7eb3440bec850712905f0ac60b3bbb3b54d4e82d
+  checksum: 1a93172d1cbe55ef603950431007f735fc23bc18f7cda035ecdefd6d398eecf30a2edaee0ab595e5ebdb9fe7336d95a56b50520ffde149fde0a2d60922b39705
   languageName: node
   linkType: hard
 
@@ -8574,7 +8574,7 @@ __metadata:
   resolution: "course-app@workspace:."
   dependencies:
     "@babel/core": ^7.14.6
-    "@chromatic-com/playwright": ^0.11.1
+    "@chromatic-com/playwright": 0.10.2
     "@ladle/react": ^2.4.5
     "@playwright/test": ^1.40.1
     "@reduxjs/toolkit": ^1.7.1

@@ -113,7 +113,7 @@ export const Button: React.FC<React.PropsWithChildren<ButtonProps>> = ({
       )}
       {icon && children && <Spacer />}
       {children}
-      OOPZ
+      OOPSIES
     </StyledButton>
   )
 }
